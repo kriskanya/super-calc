@@ -10,4 +10,3 @@ It has the following features:
 * Square Roots
 * Power
 * Factorials
-* Sums
