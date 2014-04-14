@@ -3,33 +3,57 @@
   padding: 5px;
   border-radius: 5px;
   text-align: center;
+  width: 40px;
 }
 
 .number{
-  background-color: gray;
+  background-color: #cdcbcb;
 }
 
-.number:hover {
-  background-color: red;
+.button:hover {
+  background-color: yellow;
 }
 
-.operator{
+.operator, .decimal, .sign{
   background-color: orange;
 }
 
-.operator:hover {
-  background-color: yellow;
+.clear{
+  background-color: red;
+}
+
+.push{
+  background-color: #e5b4ed;
 }
 
 #display{
   font-family: 'Share Tech Mono';
-  /*text-align:right;*/
+  text-align:right;
   font-size: 30px;
   padding: 5px;
+  background-color: #c1f0f9;
 }
 
 table{
   border-spacing: 5px;
   border-collapse: separate;
   border: 5px solid black;
+  float: left;
+}
+
+#box {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#contentContainer {
+  float: left;
+  width: 60%;
+}
+
+#queue{
+  font-size: 20px;
+  font-family: 'Share Tech Mono', monospace;
 }
